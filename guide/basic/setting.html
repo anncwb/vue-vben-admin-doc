@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>项目配置项 | Vue vben admin 2.0</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Vue Vben Admin 2.0项目文档，持续更新中....">
+    
+    <link rel="preload" href="/vue-vben-admin-doc/assets/css/0.styles.04aed7ef.css" as="style"><link rel="preload" href="/vue-vben-admin-doc/assets/js/app.29f54604.js" as="script"><link rel="preload" href="/vue-vben-admin-doc/assets/js/2.edd4265e.js" as="script"><link rel="preload" href="/vue-vben-admin-doc/assets/js/55.34f8d24d.js" as="script"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/10.19a41906.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/11.594959ea.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/12.7f1df68d.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/13.a379494a.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/14.326627ad.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/15.b2c0ec5e.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/16.05d69236.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/17.90345c55.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/18.c8574778.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/19.06ee9a3d.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/20.030f0309.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/21.4648ab98.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/22.174358c7.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/23.b7a44a9a.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/24.33cab9e2.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/25.b53134af.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/26.75d43a15.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/27.32bc316f.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/28.74db427a.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/29.24b3755b.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/3.43c6565f.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/30.c735ea30.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/31.de777725.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/32.131ea0a2.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/33.c6da0f88.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/34.30e2ce84.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/35.11512149.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/36.318366c8.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/37.8b9b493c.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/38.70e6d714.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/39.c21e7a83.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/4.58ad643a.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/40.66a45621.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/41.f614ba8e.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/42.01c751ff.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/43.328147a2.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/44.1116de1d.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/45.f662822c.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/46.f70b3cad.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/47.46ac0c50.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/48.5820f0d8.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/49.dba5c5b7.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/5.09091698.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/50.d9b14bb0.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/51.4f2bfee8.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/52.d1c08c84.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/53.b736e756.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/54.c0c384db.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/56.af630611.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/57.b0a947d6.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/58.5cc47a4e.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/59.83c7a884.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/6.c91e7fc3.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/60.aafc81a1.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/61.932a9043.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/62.fe3cb4bd.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/63.1a7b9ee5.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/64.a3c45269.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/7.25641514.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/8.020ed5d4.js"><link rel="prefetch" href="/vue-vben-admin-doc/assets/js/9.a47631d2.js">
+    <link rel="stylesheet" href="/vue-vben-admin-doc/assets/css/0.styles.04aed7ef.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue-vben-admin-doc/" class="home-link router-link-active"><img src="/vue-vben-admin-doc/img/logo.png" alt="Vue vben admin 2.0" class="logo"> <span class="site-name can-hide">Vue vben admin 2.0</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vue-vben-admin-doc/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="组件/函数(更新中...)" class="dropdown-title"><span class="title">组件/函数(更新中...)</span> <span class="arrow down"></span></button> <button type="button" aria-label="组件/函数(更新中...)" class="mobile-dropdown-title"><span class="title">组件/函数(更新中...)</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue-vben-admin-doc/comp/" class="nav-link">
+  组件
+</a></li><li class="dropdown-item"><!----> <a href="/vue-vben-admin-doc/directives/" class="nav-link">
+  指令
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/anncwb/vue-vben-admin/blob/main/CHANGELOG.zh_CN.md" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  更新日志
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/vue-vben-admin-doc/guide/donate.html" class="nav-link">
+  赞助
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="预览" class="dropdown-title"><span class="title">预览</span> <span class="arrow down"></span></button> <button type="button" aria-label="预览" class="mobile-dropdown-title"><span class="title">预览</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://vvbin.cn/next" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  完整版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://vvbin.cn/thin/next" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  精简版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="github" class="dropdown-title"><span class="title">github</span> <span class="arrow down"></span></button> <button type="button" aria-label="github" class="mobile-dropdown-title"><span class="title">github</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/anncwb/vue-vben-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  完整版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/anncwb/vben-admin-thin-next" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  精简版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vue-vben-admin-doc/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="组件/函数(更新中...)" class="dropdown-title"><span class="title">组件/函数(更新中...)</span> <span class="arrow down"></span></button> <button type="button" aria-label="组件/函数(更新中...)" class="mobile-dropdown-title"><span class="title">组件/函数(更新中...)</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue-vben-admin-doc/comp/" class="nav-link">
+  组件
+</a></li><li class="dropdown-item"><!----> <a href="/vue-vben-admin-doc/directives/" class="nav-link">
+  指令
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/anncwb/vue-vben-admin/blob/main/CHANGELOG.zh_CN.md" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  更新日志
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/vue-vben-admin-doc/guide/donate.html" class="nav-link">
+  赞助
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="预览" class="dropdown-title"><span class="title">预览</span> <span class="arrow down"></span></button> <button type="button" aria-label="预览" class="mobile-dropdown-title"><span class="title">预览</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://vvbin.cn/next" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  完整版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://vvbin.cn/thin/next" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  精简版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="github" class="dropdown-title"><span class="title">github</span> <span class="arrow down"></span></button> <button type="button" aria-label="github" class="mobile-dropdown-title"><span class="title">github</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/anncwb/vue-vben-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  完整版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/anncwb/vben-admin-thin-next" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  精简版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基础(更新中...)</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-vben-admin-doc/guide/" aria-current="page" class="sidebar-link">介绍</a></li><li><a href="/vue-vben-admin-doc/guide/basic/quickStart.html" class="sidebar-link">快速上手</a></li><li><a href="/vue-vben-admin-doc/guide/basic/setting.html" aria-current="page" class="active sidebar-link">项目配置项</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#主题色配置" class="sidebar-link">主题色配置</a></li><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#样式配置" class="sidebar-link">样式配置</a></li><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#缓存配置" class="sidebar-link">缓存配置</a></li><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#环境变量配置" class="sidebar-link">环境变量配置</a></li><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#生产环境动态配置" class="sidebar-link">生产环境动态配置</a></li><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#项目配置" class="sidebar-link">项目配置</a></li><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#多语言配置" class="sidebar-link">多语言配置</a></li><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#颜色配置" class="sidebar-link">颜色配置</a></li><li class="sidebar-sub-header"><a href="/vue-vben-admin-doc/guide/basic/setting.html#组件设置" class="sidebar-link">组件设置</a></li></ul></li><li><a href="/vue-vben-admin-doc/guide/basic/route.html" class="sidebar-link">路由</a></li><li><a href="/vue-vben-admin-doc/guide/basic/menu.html" class="sidebar-link">菜单</a></li><li><a href="/vue-vben-admin-doc/guide/basic/auth.html" class="sidebar-link">权限</a></li><li><a href="/vue-vben-admin-doc/guide/basic/mock.html" class="sidebar-link">Mock 与联调</a></li><li><a href="/vue-vben-admin-doc/guide/basic/style.html" class="sidebar-link">样式</a></li><li><a href="/vue-vben-admin-doc/guide/basic/windicss.html" class="sidebar-link">windiCss</a></li><li><a href="/vue-vben-admin-doc/guide/basic/build.html" class="sidebar-link">构建</a></li><li><a href="/vue-vben-admin-doc/guide/basic/comp.html" class="sidebar-link">组件注册</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>深入(更新中...)</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-vben-admin-doc/guide/dep/cors.html" class="sidebar-link">跨域处理</a></li><li><a href="/vue-vben-admin-doc/guide/dep/deploy.html" class="sidebar-link">服务器部署</a></li><li><a href="/vue-vben-admin-doc/guide/dep/nginx.html" class="sidebar-link">nginx 处理跨域</a></li><li><a href="/vue-vben-admin-doc/guide/dep/icon.html" class="sidebar-link">图标</a></li><li><a href="/vue-vben-admin-doc/guide/dep/i18n.html" class="sidebar-link">国际化</a></li><li><a href="/vue-vben-admin-doc/guide/dep/lint.html" class="sidebar-link">Lint</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>其他(更新中...)</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-vben-admin-doc/guide/qa/" class="sidebar-link">常见问题</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="项目配置项"><a href="#项目配置项" class="header-anchor">#</a> 项目配置项</h1> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>/@/ 是 vite 内配置 的别名</p> <p>/@/settings 等同于 src/settings</p></div> <h2 id="主题色配置"><a href="#主题色配置" class="header-anchor">#</a> 主题色配置</h2> <p>默认全局主题色配置位于<a href="https://github.com/anncwb/vue-vben-admin/tree/main/build/config/themeConfig.ts" target="_blank" rel="noopener noreferrer">build/config/glob/themeConfig.ts<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>内</p> <p>只需要修改 primaryColor 为您需要的配色，然后重新执行<code>yarn serve</code>即可</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">/**
+ * less global variable
+ */</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> primaryColor <span class="token operator">=</span> <span class="token string">'#0960bd'</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="样式配置"><a href="#样式配置" class="header-anchor">#</a> 样式配置</h2> <h3 id="css-前缀设置"><a href="#css-前缀设置" class="header-anchor">#</a> css 前缀设置</h3> <ol><li>css 在 <a href="https://github.com/anncwb/vue-vben-admin/blob/main/src/settings/designSetting.ts" target="_blank" rel="noopener noreferrer">/@/settings/designSetting.ts<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>内配置</li></ol> <div class="language-ts line-numbers-mode"><pre class="language-ts"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  prefixCls<span class="token operator">:</span> <span class="token string">'vben'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="2"><li>在<a href="https://github.com/anncwb/vue-vben-admin/blob/main/src/design/var/index.less" target="_blank" rel="noopener noreferrer">/@/design/var/index.less<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>配置 css 前缀</li></ol> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token variable">@namespace<span class="token punctuation">:</span></span> vben<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="前缀使用"><a href="#前缀使用" class="header-anchor">#</a> 前缀使用</h3> <p><strong>在 css 内</strong></p> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>less<span class="token punctuation">&quot;</span></span> <span class="token attr-name">scoped</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token atrule"><span class="token rule">@prefix-cls</span><span class="token punctuation">:</span> ~'@</span><span class="token punctuation">{</span>namespace<span class="token punctuation">}</span>-app-logo'<span class="token selector">;
+  .@</span><span class="token punctuation">{</span>prefix-cls<span class="token punctuation">}</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>在 js 内</strong></p> <div class="language-ts line-numbers-mode"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useDesign <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'/@/hooks/web/useDesign'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> prefixCls <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useDesign</span><span class="token punctuation">(</span><span class="token string">'app-logo'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// prefixCls =&gt; vben-app-logo</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="缓存配置"><a href="#缓存配置" class="header-anchor">#</a> 缓存配置</h2> <p>在<a href="https://github.com/anncwb/vue-vben-admin/blob/main/src/settings/encryptionSetting.ts" target="_blank" rel="noopener noreferrer">/@/settings/encryptionSetting.ts<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>内可以配置 localStorage 及 sessionStorage 缓存信息</p> <p><strong>前提</strong> 使用项目自带的缓存工具类 <a href="https://github.com/anncwb/vue-vben-admin/blob/main/src/utils/cache" target="_blank" rel="noopener noreferrer">/@/utils/cache<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>来进行缓存操作</p> <div class="language-ts line-numbers-mode"><pre class="language-ts"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> isDevMode <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'/@/utils/env'</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 缓存默认过期时间</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token constant">DEFAULT_CACHE_TIME</span> <span class="token operator">=</span> <span class="token number">60</span> <span class="token operator">*</span> <span class="token number">60</span> <span class="token operator">*</span> <span class="token number">24</span> <span class="token operator">*</span> <span class="token number">7</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 开启缓存加密后，加密密钥。采用aes加密</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> cacheCipher <span class="token operator">=</span> <span class="token punctuation">{</span>
+  key<span class="token operator">:</span> <span class="token string">'_11111000001111@'</span><span class="token punctuation">,</span>
+  iv<span class="token operator">:</span> <span class="token string">'@11111000001111_'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 是否加密缓存，默认生产环境加密</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> enableStorageEncryption <span class="token operator">=</span> <span class="token operator">!</span><span class="token function">isDevMode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h2 id="环境变量配置"><a href="#环境变量配置" class="header-anchor">#</a> 环境变量配置</h2> <p>项目的环境变量配置位于 项目根目录 <a href="https://github.com/anncwb/vue-vben-admin/blob/main/.env" target="_blank" rel="noopener noreferrer">.env<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>、<a href="https://github.com/anncwb/vue-vben-admin/blob/main/.env" target="_blank" rel="noopener noreferrer">.env.development<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>、<a href="https://github.com/anncwb/vue-vben-admin/blob/main/.env" target="_blank" rel="noopener noreferrer">.env.production<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>具体可以参考<a href="https://github.com/vitejs/vite#modes-and-environment-variables" target="_blank" rel="noopener noreferrer">Vite 介绍<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>.env                <span class="token comment"># 在所有的环境中被载入</span>
+.env.local          <span class="token comment"># 在所有的环境中被载入，但会被 git 忽略</span>
+.env.<span class="token punctuation">[</span>mode<span class="token punctuation">]</span>         <span class="token comment"># 只在指定的模式中被载入</span>
+.env.<span class="token punctuation">[</span>mode<span class="token punctuation">]</span>.local   <span class="token comment"># 只在指定的模式中被载入，但会被 git 忽略</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><div class="custom-block tip"><p class="custom-block-title">温馨提醒</p> <p>只有以 _VITE__ 开头的变量会被嵌入到客户端侧的包中。你可以在应用的代码中这样访问它们：</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">import</span><span class="token punctuation">.</span>meta<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">VITE_PROT</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></div> <div class="custom-block tip"><p class="custom-block-title">温馨提醒</p> <p>以 <code>VITE_GLOB_*</code> 开头的的变量，在打包的时候，会被加入<a href="#%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E5%8A%A8%E6%80%81%E9%85%8D%E7%BD%AE">_app.config.js</a>配置文件当中.</p></div> <h3 id="变量说明"><a href="#变量说明" class="header-anchor">#</a> 变量说明</h3> <h3 id="env-文件"><a href="#env-文件" class="header-anchor">#</a> .env 文件</h3> <p>所有环境适用</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 端口号</span>
+<span class="token assign-left variable">VITE_PORT</span><span class="token operator">=</span><span class="token number">3100</span>
+
+<span class="token comment"># 标题 logo title</span>
+<span class="token assign-left variable">VITE_GLOB_APP_TITLE</span><span class="token operator">=</span>vben admin
+
+<span class="token comment"># 简称，用于配置文件名字 不要出现空格等特殊字符</span>
+<span class="token assign-left variable">VITE_GLOB_APP_SHORT_NAME</span><span class="token operator">=</span>vben_admin
+
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><strong>.env.development 开发环境适用</strong></p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 是否开启mock</span>
+<span class="token assign-left variable">VITE_USE_MOCK</span><span class="token operator">=</span>true
+
+
+<span class="token comment"># 接口地址前缀，有些系统所有接口地址都有前缀，可以在这里统一加，方便切换</span>
+<span class="token assign-left variable">VITE_GLOB_API_URL_PREFIX</span><span class="token operator">=</span>
+
+<span class="token comment"># 是否删除Console.log</span>
+<span class="token assign-left variable">VITE_DROP_CONSOLE</span><span class="token operator">=</span>false
+
+<span class="token comment"># 资源公共路径</span>
+<span class="token assign-left variable">VITE_PUBLIC_PATH</span><span class="token operator">=</span>/
+
+<span class="token comment"># 本地开发代理，可以解决跨域及多地址代理</span>
+<span class="token comment"># 如果接口地址匹配到，则会转发到http://localhost:3000，防止本地出现跨域问题</span>
+<span class="token comment"># 可以有多个</span>
+<span class="token assign-left variable">VITE_PROXY</span><span class="token operator">=</span><span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token string">&quot;/api&quot;</span>,<span class="token string">&quot;http://localhost:3000&quot;</span><span class="token punctuation">]</span>,<span class="token punctuation">[</span><span class="token string">&quot;api1&quot;</span>,<span class="token string">&quot;http://localhost:3001&quot;</span><span class="token punctuation">]</span>,<span class="token punctuation">[</span><span class="token string">&quot;/upload&quot;</span>,<span class="token string">&quot;http://localhost:3001/upload&quot;</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+
+<span class="token comment"># 接口地址</span>
+<span class="token comment"># 如果没有跨域问题，直接在这里配置即可</span>
+<span class="token assign-left variable">VITE_GLOB_API_URL</span><span class="token operator">=</span>/api
+
+<span class="token comment"># 文件上传接口  可选</span>
+<span class="token assign-left variable">VITE_GLOB_UPLOAD_URL</span><span class="token operator">=</span>/upload
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><div class="custom-block warning"><p class="custom-block-title">注意</p> <p>这里配置的<code>VITE_PROXY</code>以及<code>VITE_GLOB_API_URL</code>, /api 需要是唯一的，不要和接口有的名字冲突</p> <p>如果你的接口是<code>http://localhost:3000/api</code>之类的，请考虑将<code>VITE_GLOB_API_URL=/xxxx</code> 换成别的名字</p></div> <p><strong>.env.production 生产环境适用</strong></p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 是否开启mock</span>
+<span class="token assign-left variable">VITE_USE_MOCK</span><span class="token operator">=</span>true
+
+<span class="token comment"># 接口地址 可以由nginx做转发或者直接写实际地址</span>
+<span class="token assign-left variable">VITE_GLOB_API_URL</span><span class="token operator">=</span>/api
+
+<span class="token comment"># 文件上传地址 可以由nginx做转发或者直接写实际地址</span>
+<span class="token assign-left variable">VITE_GLOB_UPLOAD_URL</span><span class="token operator">=</span>/upload
+
+<span class="token comment"># 接口地址前缀，有些系统所有接口地址都有前缀，可以在这里统一加，方便切换</span>
+<span class="token assign-left variable">VITE_GLOB_API_URL_PREFIX</span><span class="token operator">=</span>
+
+<span class="token comment"># 是否删除Console.log</span>
+<span class="token assign-left variable">VITE_DROP_CONSOLE</span><span class="token operator">=</span>true
+
+<span class="token comment"># 资源公共路径</span>
+<span class="token assign-left variable">VITE_PUBLIC_PATH</span><span class="token operator">=</span>./
+
+<span class="token comment"># 打包是否输出gz｜br文件</span>
+<span class="token comment"># 可选: gzip | brotli | none</span>
+<span class="token comment"># 也可以有多个, 例如 ‘gzip’|'brotli',这样会同时生成 .gz和.br文件</span>
+VITE_BUILD_COMPRESS <span class="token operator">=</span> <span class="token string">'gzip'</span>
+
+<span class="token comment"># 打包是否压缩图片</span>
+VITE_USE_IMAGEMIN <span class="token operator">=</span> <span class="token boolean">false</span>
+
+<span class="token comment"># 打包是否开启pwa功能</span>
+VITE_USE_PWA <span class="token operator">=</span> <span class="token boolean">false</span>
+
+<span class="token comment"># 是否兼容旧版浏览器。开启后打包时间会慢一倍左右。会多打出旧浏览器兼容包,且会根据浏览器兼容性自动使用相应的版本</span>
+VITE_LEGACY <span class="token operator">=</span> <span class="token boolean">false</span>
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br></div></div><h2 id="生产环境动态配置"><a href="#生产环境动态配置" class="header-anchor">#</a> 生产环境动态配置</h2> <h3 id="说明"><a href="#说明" class="header-anchor">#</a> 说明</h3> <p><code>_app.config.js</code> 会在打包的时候自动生成，并且插入<code>index.html</code></p> <p><strong>注意:开发环境不会生成</strong></p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// _app.config.js</span>
+<span class="token comment">// 变量名命名规则  __PRODUCTION__xxx_CONF__   xxx：为.env配置的VITE_GLOB_APP_SHORT_NAME</span>
+window<span class="token punctuation">.</span>__PRODUCTION__VUE_VBEN_ADMIN__CONF__ <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token constant">VITE_GLOB_APP_TITLE</span><span class="token operator">:</span> <span class="token string">'vben admin'</span><span class="token punctuation">,</span>
+  <span class="token constant">VITE_GLOB_APP_SHORT_NAME</span><span class="token operator">:</span> <span class="token string">'vue_vben_admin'</span><span class="token punctuation">,</span>
+  <span class="token constant">VITE_GLOB_API_URL</span><span class="token operator">:</span> <span class="token string">'/app'</span><span class="token punctuation">,</span>
+  <span class="token constant">VITE_GLOB_API_URL_PREFIX</span><span class="token operator">:</span> <span class="token string">'/'</span><span class="token punctuation">,</span>
+  <span class="token constant">VITE_GLOB_UPLOAD_URL</span><span class="token operator">:</span> <span class="token string">'/upload'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h3 id="作用"><a href="#作用" class="header-anchor">#</a> 作用</h3> <p><code>_app.config.js</code> 用于项目在打包后需要动态修改的需求，如接口地址, 可在打包后通过修改<code>/dist/_app.config.js</code>内的变量,刷新即可更新代码内的局部变量</p> <h3 id="如何获取全局变量"><a href="#如何获取全局变量" class="header-anchor">#</a> 如何获取全局变量</h3> <p>想要获取 <code>_app.config.js</code> 内的变量</p> <p>可以使用<a href="https://github.com/anncwb/vue-vben-admin/tree/main/src/hooks/core/useSetting.ts" target="_blank" rel="noopener noreferrer">useSetting<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>提供的函数来进行获取</p> <h3 id="如何新增"><a href="#如何新增" class="header-anchor">#</a> 如何新增</h3> <ol><li><p>首先在<code>.env</code>或者对应的开发环境配置文件内新增需要可动态配置的变量 需要以 <code>VITE_GLOB_</code>开头</p></li> <li><p><code>VITE_GLOB_</code>开头的变量会自动加入环境变量，通过在 <code>src/types/config.d.ts</code>内修改 <code>GlobEnvConfig</code>和<code>GlobConfig</code>两个环境变量的值来定义新添加的类型</p></li> <li><p><a href="https://github.com/anncwb/vue-vben-admin/tree/main/src/hooks/setting/index.ts" target="_blank" rel="noopener noreferrer">useGlobSetting<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>函数新增你刚才新增的返回值即可</p></li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// useSetting</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span>
+  <span class="token constant">VITE_GLOB_APP_TITLE</span><span class="token punctuation">,</span>
+  <span class="token constant">VITE_GLOB_API_URL</span><span class="token punctuation">,</span>
+  <span class="token constant">VITE_GLOB_APP_SHORT_NAME</span><span class="token punctuation">,</span>
+  <span class="token constant">VITE_GLOB_API_URL_PREFIX</span><span class="token punctuation">,</span>
+  <span class="token constant">VITE_GLOB_UPLOAD_URL</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token constant">ENV</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> useGlobSetting <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token parameter">SettingWrap</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Take global configuration</span>
+  <span class="token keyword">const</span> glob<span class="token operator">:</span> Readonly<span class="token operator">&lt;</span>GlobConfig<span class="token operator">&gt;</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    title<span class="token operator">:</span> <span class="token constant">VITE_GLOB_APP_TITLE</span><span class="token punctuation">,</span>
+    apiUrl<span class="token operator">:</span> <span class="token constant">VITE_GLOB_API_URL</span><span class="token punctuation">,</span>
+    shortName<span class="token operator">:</span> <span class="token constant">VITE_GLOB_APP_SHORT_NAME</span><span class="token punctuation">,</span>
+    urlPrefix<span class="token operator">:</span> <span class="token constant">VITE_GLOB_API_URL_PREFIX</span><span class="token punctuation">,</span>
+    uploadUrl<span class="token operator">:</span> <span class="token constant">VITE_GLOB_UPLOAD_URL</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> glob <span class="token keyword">as</span> Readonly<span class="token operator">&lt;</span>GlobConfig<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><h2 id="项目配置"><a href="#项目配置" class="header-anchor">#</a> 项目配置</h2> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>项目配置用于配置项目内展示的内容/布局/文本等效果，存于<code>localStorage</code>中,在代码内更改之后需要清空<code>localStorage</code>缓存</p> <p>如果更改了项目配置,需要手动清空<code>localStorage</code>缓存刷新重新登录后方可生效</p></div> <h3 id="配置文件路径"><a href="#配置文件路径" class="header-anchor">#</a> 配置文件路径</h3> <p><a href="https://github.com/anncwb/vue-vben-admin/tree/main/src/settings/projectSetting.ts" target="_blank" rel="noopener noreferrer">src/settings/projectSetting.ts<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h3 id="说明-2"><a href="#说明-2" class="header-anchor">#</a> 说明</h3> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// ! 改动后需要清空浏览器缓存</span>
+<span class="token keyword">const</span> setting<span class="token operator">:</span> ProjectConfig <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 是否显示SettingButton</span>
+  showSettingButton<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 设置按钮位置 可选项</span>
+  <span class="token comment">// SettingButtonPositionEnum.AUTO: 自动选择  SettingButtonPositionEnum.HEADER:位于头部 SettingButtonPositionEnum.FIXED 固定在右侧</span>
+  settingButtonPosition<span class="token operator">:</span> SettingButtonPositionEnum<span class="token punctuation">.</span><span class="token constant">AUTO</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 权限模式,默认前端角色权限模式</span>
+  permissionMode<span class="token operator">:</span> PermissionModeEnum<span class="token punctuation">.</span><span class="token constant">ROLE</span><span class="token punctuation">,</span>
+  <span class="token comment">// 权限缓存存放位置。默认存放于localStorage</span>
+  permissionCacheType<span class="token operator">:</span> CacheTypeEnum<span class="token punctuation">.</span><span class="token constant">LOCAL</span><span class="token punctuation">,</span>
+  <span class="token comment">// 网站灰色模式，用于可能悼念的日期开启</span>
+  grayMode<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token comment">// 色弱模式</span>
+  colorWeak<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token comment">// 是否取消菜单,顶部,多标签页显示, 用于可能内嵌在别的系统内</span>
+  fullContent<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token comment">// 主题内容宽度</span>
+  contentMode<span class="token operator">:</span> ContentEnum<span class="token punctuation">.</span><span class="token constant">FULL</span><span class="token punctuation">,</span>
+  <span class="token comment">// 是否显示logo</span>
+  showLogo<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token comment">// 是否显示底部信息 copyright</span>
+  showFooter<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token comment">// 头部配置</span>
+  headerSetting<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 背景色</span>
+    bgColor<span class="token operator">:</span> <span class="token string">'#ffffff'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 固定头部</span>
+    fixed<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否显示顶部</span>
+    show<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 主题</span>
+    theme<span class="token operator">:</span> MenuThemeEnum<span class="token punctuation">.</span><span class="token constant">LIGHT</span><span class="token punctuation">,</span>
+    <span class="token comment">// 开启锁屏功能</span>
+    useLockPage<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 显示刷新按钮</span>
+    showRedo<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 显示全屏按钮</span>
+    showFullScreen<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 显示文档按钮</span>
+    showDoc<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 显示消息中心按钮</span>
+    showNotice<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 显示菜单搜索按钮</span>
+    showSearch<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 菜单配置</span>
+  menuSetting<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 背景色</span>
+    bgColor<span class="token operator">:</span> <span class="token string">'#273352'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否固定住菜单</span>
+    fixed<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 菜单折叠</span>
+    collapsed<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">// 折叠菜单时候是否显示菜单名</span>
+    collapsedShowTitle<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否可拖拽</span>
+    canDrag<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否显示</span>
+    show<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 菜单宽度</span>
+    menuWidth<span class="token operator">:</span> <span class="token number">180</span><span class="token punctuation">,</span>
+    <span class="token comment">// 菜单模式</span>
+    mode<span class="token operator">:</span> MenuModeEnum<span class="token punctuation">.</span><span class="token constant">INLINE</span><span class="token punctuation">,</span>
+    <span class="token comment">// 菜单类型</span>
+    type<span class="token operator">:</span> MenuTypeEnum<span class="token punctuation">.</span><span class="token constant">SIDEBAR</span><span class="token punctuation">,</span>
+    <span class="token comment">// 菜单主题</span>
+    theme<span class="token operator">:</span> MenuThemeEnum<span class="token punctuation">.</span><span class="token constant">DARK</span><span class="token punctuation">,</span>
+    <span class="token comment">// 分割菜单</span>
+    split<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">// 顶部菜单布局</span>
+    topMenuAlign<span class="token operator">:</span> <span class="token string">'start'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 折叠触发器的位置</span>
+    trigger<span class="token operator">:</span> TriggerEnum<span class="token punctuation">.</span><span class="token constant">HEADER</span><span class="token punctuation">,</span>
+    <span class="token comment">// 手风琴模式，只展示一个菜单</span>
+    accordion<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 在路由切换的时候关闭左侧混合菜单展开菜单</span>
+    closeMixSidebarOnChange<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">// 左侧混合菜单模块切换触发方式</span>
+    mixSideTrigger<span class="token operator">:</span> MixSidebarTriggerEnum<span class="token punctuation">.</span><span class="token constant">CLICK</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否固定左侧混合菜单</span>
+    mixSideFixed<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 多标签</span>
+  multiTabsSetting<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 开启</span>
+    show<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 开启快速操作</span>
+    showQuick<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否可以拖拽</span>
+    canDrag<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+    <span class="token comment">// 是否显示刷新那妞</span>
+    showRedo<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// 是否显示折叠按钮</span>
+    showFold<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 动画配置</span>
+  transitionSetting<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">//  是否开启切换动画</span>
+    enable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+    <span class="token comment">// 动画名</span>
+    basicTransition<span class="token operator">:</span> RouterTransitionEnum<span class="token punctuation">.</span><span class="token constant">FADE_SIDE</span><span class="token punctuation">,</span>
+
+    <span class="token comment">// 是否打开页面切换loading</span>
+    openPageLoading<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+    <span class="token comment">//是否打开页面切换顶部进度条</span>
+    openNProgress<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 是否开启KeepAlive缓存  开发时候最好关闭,不然每次都需要清除缓存</span>
+  openKeepAlive<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 自动锁屏时间，为0不锁屏。 单位分钟 默认1个小时</span>
+  lockTime<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token comment">// 显示面包屑</span>
+  showBreadCrumb<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token comment">// 显示面包屑图标</span>
+  showBreadCrumbIcon<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token comment">//  开启页面切换动画</span>
+  openRouterTransition<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 路由切换动画</span>
+  routerTransition<span class="token operator">:</span> RouterTransitionEnum<span class="token punctuation">.</span><span class="token constant">ZOOM_FADE</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 是否开启回到顶部</span>
+  useOpenBackTop<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+  <span class="token comment">//  是否可以嵌入iframe页面</span>
+  canEmbedIFramePage<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 切换界面的时候是否删除未关闭的message及notify</span>
+  closeMessageOnSwitch<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// 切换界面的时候是否取消已经发送但是未响应的http请求。</span>
+  <span class="token comment">// 如果开启,想对单独接口覆盖。可以在单独接口设置</span>
+  removeAllHttpPending<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br></div></div><h2 id="多语言配置"><a href="#多语言配置" class="header-anchor">#</a> 多语言配置</h2> <p>用于配置多语言信息</p> <p><a href="https://github.com/anncwb/vue-vben-admin/tree/main/src/settings/localeSetting.ts" target="_blank" rel="noopener noreferrer">src/settings/localeSetting.ts<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language-ts line-numbers-mode"><pre class="language-ts"><code><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token constant">LOCALE</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token punctuation">[</span>key<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">]</span><span class="token operator">:</span> LocaleType <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token constant">ZH_CN</span><span class="token operator">:</span> <span class="token string">'zh_CN'</span><span class="token punctuation">,</span>
+  <span class="token constant">EN_US</span><span class="token operator">:</span> <span class="token string">'en'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> localeSetting<span class="token operator">:</span> LocaleSetting <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 是否显示语言选择器</span>
+  showPicker<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token comment">// 当前语言</span>
+  locale<span class="token operator">:</span> <span class="token constant">LOCALE</span><span class="token punctuation">.</span><span class="token constant">ZH_CN</span><span class="token punctuation">,</span>
+  <span class="token comment">// 默认语言</span>
+  fallback<span class="token operator">:</span> <span class="token constant">LOCALE</span><span class="token punctuation">.</span><span class="token constant">ZH_CN</span><span class="token punctuation">,</span>
+  <span class="token comment">// 允许的语言</span>
+  availableLocales<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token constant">LOCALE</span><span class="token punctuation">.</span><span class="token constant">ZH_CN</span><span class="token punctuation">,</span> <span class="token constant">LOCALE</span><span class="token punctuation">.</span><span class="token constant">EN_US</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 语言列表</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> localeList<span class="token operator">:</span> DropMenu<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    text<span class="token operator">:</span> <span class="token string">'简体中文'</span><span class="token punctuation">,</span>
+    event<span class="token operator">:</span> <span class="token constant">LOCALE</span><span class="token punctuation">.</span><span class="token constant">ZH_CN</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    text<span class="token operator">:</span> <span class="token string">'English'</span><span class="token punctuation">,</span>
+    event<span class="token operator">:</span> <span class="token constant">LOCALE</span><span class="token punctuation">.</span><span class="token constant">EN_US</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><h2 id="颜色配置"><a href="#颜色配置" class="header-anchor">#</a> 颜色配置</h2> <p>用于预设一些颜色数组</p> <p><a href="https://github.com/anncwb/vue-vben-admin/tree/main/src/settings/designSetting.ts" target="_blank" rel="noopener noreferrer">src/settings/designSetting.ts<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language-ts line-numbers-mode"><pre class="language-ts"><code><span class="token comment">// 样式前缀</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  prefixCls<span class="token operator">:</span> <span class="token string">'vben'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">//  app主题色预设</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token constant">APP_PRESET_COLOR_LIST</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token string">'#0960bd'</span><span class="token punctuation">,</span>
+  <span class="token string">'#0084f4'</span><span class="token punctuation">,</span>
+  <span class="token string">'#009688'</span><span class="token punctuation">,</span>
+  <span class="token string">'#536dfe'</span><span class="token punctuation">,</span>
+  <span class="token string">'#ff5c93'</span><span class="token punctuation">,</span>
+  <span class="token string">'#ee4f12'</span><span class="token punctuation">,</span>
+  <span class="token string">'#0096c7'</span><span class="token punctuation">,</span>
+  <span class="token string">'#9c27b0'</span><span class="token punctuation">,</span>
+  <span class="token string">'#ff9800'</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 顶部背景色预设</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token constant">HEADER_PRESET_BG_COLOR_LIST</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token string">'#ffffff'</span><span class="token punctuation">,</span>
+  <span class="token string">'#009688'</span><span class="token punctuation">,</span>
+  <span class="token string">'#5172DC'</span><span class="token punctuation">,</span>
+  <span class="token string">'#1E9FFF'</span><span class="token punctuation">,</span>
+  <span class="token string">'#018ffb'</span><span class="token punctuation">,</span>
+  <span class="token string">'#409eff'</span><span class="token punctuation">,</span>
+  <span class="token string">'#4e73df'</span><span class="token punctuation">,</span>
+  <span class="token string">'#e74c3c'</span><span class="token punctuation">,</span>
+  <span class="token string">'#24292e'</span><span class="token punctuation">,</span>
+  <span class="token string">'#394664'</span><span class="token punctuation">,</span>
+  <span class="token string">'#001529'</span><span class="token punctuation">,</span>
+  <span class="token string">'#383f45'</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">//左侧菜单背景色预设</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token constant">SIDE_BAR_BG_COLOR_LIST</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token string">'#001529'</span><span class="token punctuation">,</span>
+  <span class="token string">'#273352'</span><span class="token punctuation">,</span>
+  <span class="token string">'#ffffff'</span><span class="token punctuation">,</span>
+  <span class="token string">'#191b24'</span><span class="token punctuation">,</span>
+  <span class="token string">'#191a23'</span><span class="token punctuation">,</span>
+  <span class="token string">'#304156'</span><span class="token punctuation">,</span>
+  <span class="token string">'#001628'</span><span class="token punctuation">,</span>
+  <span class="token string">'#28333E'</span><span class="token punctuation">,</span>
+  <span class="token string">'#344058'</span><span class="token punctuation">,</span>
+  <span class="token string">'#383f45'</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br></div></div><h2 id="组件设置"><a href="#组件设置" class="header-anchor">#</a> 组件设置</h2> <p><a href="https://github.com/anncwb/vue-vben-admin/tree/main/src/settings/componentSetting.ts" target="_blank" rel="noopener noreferrer">src/settings/componentSetting.ts<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language-ts line-numbers-mode"><pre class="language-ts"><code><span class="token comment">// 用于配置某些组件的常规配置，而无需修改组件</span>
+<span class="token keyword">import</span> <span class="token keyword">type</span> <span class="token punctuation">{</span> SorterResult <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'../components/Table'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 表格配置</span>
+  table<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 表格接口请求通用配置，可在组件prop覆盖</span>
+    <span class="token comment">// 支持 xxx.xxx.xxx格式</span>
+    fetchSetting<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 传给后台的当前页字段</span>
+      pageField<span class="token operator">:</span> <span class="token string">'page'</span><span class="token punctuation">,</span>
+      <span class="token comment">// 传给后台的每页显示多少条的字段</span>
+      sizeField<span class="token operator">:</span> <span class="token string">'pageSize'</span><span class="token punctuation">,</span>
+      <span class="token comment">// 接口返回表格数据的字段</span>
+      listField<span class="token operator">:</span> <span class="token string">'items'</span><span class="token punctuation">,</span>
+      <span class="token comment">// 接口返回表格总数的字段</span>
+      totalField<span class="token operator">:</span> <span class="token string">'total'</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 可选的分页选项</span>
+    pageSizeOptions<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'10'</span><span class="token punctuation">,</span> <span class="token string">'50'</span><span class="token punctuation">,</span> <span class="token string">'80'</span><span class="token punctuation">,</span> <span class="token string">'100'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token comment">//默认每页显示多少条</span>
+    defaultPageSize<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    <span class="token comment">// 默认排序方法</span>
+    <span class="token function-variable function">defaultSortFn</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">sortInfo<span class="token operator">:</span> SorterResult</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> <span class="token punctuation">{</span> field<span class="token punctuation">,</span> order <span class="token punctuation">}</span> <span class="token operator">=</span> sortInfo<span class="token punctuation">;</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 排序字段</span>
+        field<span class="token punctuation">,</span>
+        <span class="token comment">// 排序方式 asc/desc</span>
+        order<span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 自定义过滤方法</span>
+    <span class="token function-variable function">defaultFilterFn</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">data<span class="token operator">:</span> Partial<span class="token operator">&lt;</span>Recordable<span class="token operator">&lt;</span><span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">&gt;&gt;</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> data<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 滚动组件配置</span>
+  scrollbar<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 是否使用原生滚动样式</span>
+    <span class="token comment">// 开启后，菜单，弹窗，抽屉会使用原生滚动条组件</span>
+    native<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br></div></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vue-vben-admin-doc/guide/basic/quickStart.html" class="prev">
+        快速上手
+      </a></span> <span class="next"><a href="/vue-vben-admin-doc/guide/basic/route.html">
+        路由
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/vue-vben-admin-doc/assets/js/app.29f54604.js" defer></script><script src="/vue-vben-admin-doc/assets/js/2.edd4265e.js" defer></script><script src="/vue-vben-admin-doc/assets/js/55.34f8d24d.js" defer></script>
+  </body>
+</html>
